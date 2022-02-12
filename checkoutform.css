@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header{
+    margin: 15px 0px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+form{
+    float: left;
+    margin-right: 150px;
+    height: 612px;
+    width: 372px;
+    position: relative;
+    color: rgb(51, 51, 51);
+    width: 372px;
+}
+.contact-information, 
+.shipping-adress{
+    margin: 15px 0px;
+}
+.contact-information__email,
+.contact-information__phone,
+.shipping-adress__fullName,
+.shipping-adress__address,
+.shipping-adress__city,
+.form-bottom__country label,
+.form-bottom__postcode label{
+    font-size: 12px;
+    color: #4F4F4F;
+    margin: 10px 0px;
+    position: relative;
+    display: block;
+}
+.fas{
+    position: absolute;
+    margin-left: -365px;
+    padding-top: 10px;
+}
+.checkbox{
+    margin: 10px 0 20px 0;
+    font-size: 12px;
+}
+#Email,#Phone,#Fullname,#Adress,#City{
+    border: 1px solid #828282;
+    border-radius: 5px;
+    padding: 8px 5px 8px 35px;
+    display: inline-block;
+    width: 372px;
+}
+#Country{
+    border: 1px solid #828282;
+    border-radius: 5px;
+    
+    padding: 8px 12px 8px 20px;
+    display: inline-block;
+}
+.form-bottom__country{
+    margin-right: 20px;
+    
+}
+.form-bottom__postcode{
+    width: 60%;
+}
+#Postcode{
+    border: 1px solid #828282;
+    border-radius: 5px;
+    
+    padding: 10px 5px 8px 25px;
+    display: inline-block;
+    /* margin-left: 20px; */
+}
+.fa-globe-europe{
+    margin-left: -109px;
+}
+.form-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.fa-mail-bulk{
+    margin-left: -195px;
+}
+#button{
+    background-color: #F2994A;
+    color: white;
+    padding: 14px 0px;
+    width: 20%;
+    text-align: center;
+    height: 43px;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    position: absolute;
+}
+.right-block{
+    width: 320px;
+    padding: 10px 20px;
+    background-color: #EEEEEE;   
+    border-radius: 10px;
+    height: 100%;
+}
+img{
+    height: 110px;
+    width: 96px;
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+}
+.right-block div{
+    margin: 10px 0px;
+}
+.right-block{
+    display: flex;
+    flex-direction: column;
+}
+.right-block__backbag,.right-block__shoes{
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+.right-block__backbag--buttons,.right-block__shoes--buttons{
+    display: flex;
+    border: 1px solid rgb(136,136,136);
+    border-radius: 5px;
+    margin: 0 25px;
+    padding: 5px 65px 5px 0;
+    width: 50%;
+}
+
+.right-block__backbag--header,
+.right-block__shoes--header{
+    text-decoration: rgb(78, 81, 80);
+    color: #4E5150;
+    margin: 5px 0px;
+    font-size: 16px;
+} 
+span{
+    color: #F2994A;
+    font-size: 16px;
+}
+del{
+    font-size: 12px;
+    color: #4E5150;
+}
+button{
+    background-color: #E0E0E0;
+    margin:0px 5px;
+    height: 25px;
+    display: inline;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+    width: 20.5px;
+    border-radius: 5px;
+}
+.right-block__shipping,.right-block__total{
+    display: flex;
+    justify-content:space-around;  
+    margin-top: 25px; 
+    border-top: 1px solid #4E5150;
+}
+
